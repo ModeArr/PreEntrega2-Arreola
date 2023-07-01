@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina principal</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+</head>
+<body>
+    <header id="header">
+        <div class="center"> 
+            <a href="./index.html"><img src="./img/logo.png" alt="Logo"></img></a>
+        </div>
+        <div class="menuHamburgesa">
+            <input type="checkbox"/>
+            <span class="ham"></span>
+            <span class="ham"></span>
+            <span class="ham"></span>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="./pages/catalogo.html">Catalogo</a></li>
+                    <li><a href="./pages/testimonios.html">Testimonios</a></li>
+                    <li><a href="./pages/quienes-somos.html">¿Quiénes Somos?</a></li>
+                    <li><a href="./pages/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="inicio">
+            <h1 id="Marca">Marca</h1><!-- No se muestra -->
+            <img src="./img/fondo-inicio.jpg" alt="Imagen Fondo Inicio">
+            <a data-scroll href="#quienes">
+                <div class="flechaAbajo"></div>
+            </a>
+        </section>
+        <section id="catalogo">
+            <div class="container">
+                <h2>¿Qué hacemos?</h2>
+                <p>Lorem ipsum dolor sit. Lorem ipsum dolor sit amet.</p>
+                <h3>Ve nuestro catalogo</h3>
+                <div class="productos">
+                    <div class="productoInicio">
+                        <img src="./img/producto1.jpeg" alt="Producto 1">
+                        <h4>Lorem, ipsum.</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, labore?</p>
+                    </div>
+                    <div class="productoInicio">
+                        <img src="./img/producto2.jpeg" alt="Producto 2">
+                        <h4>Lorem, ipsum.</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, molestias.</p>
+                    </div>
+                    <div class="productoInicio">
+                        <img src="./img/producto3.jpeg" alt="Producto 3">
+                        <h4>Lorem, ipsum.</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, necessitatibus!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="testimonios"> 
+            <div class="container">
+                <h2>Testimoniales</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <div class="contenedorTestimonio">
+                    <div class="testimoniosInicio">
+                        <div class="item">
+                            <img src="./img/testi1.png" alt="Foto Testimonial1">
+                            <p class="cita">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, perspiciatis!"</p>
+                            <p class="autor">Lorem, ipsum.</p>
+                        </div>
+                        <div class="item">
+                            <img src="./img/testi2.png" alt="Foto Testimonial1">
+                            <p class="cita">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, perspiciatis!"</p>
+                            <p class="autor">Lorem, ipsum.</p>
+                        </div>
+                        <div class="item">
+                            <img src="./img/testi3.png" alt="Foto Testimonial1">
+                            <p class="cita">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, perspiciatis!"</p>
+                            <p class="autor">Lorem, ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="quienesSomos">
+            <div class="container">
+            <h2>¿Quiénes Somos?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam pariatur placeat, sint necessitatibus voluptatibus molestias sapiente voluptatem quibusdam odio tempora nesciunt dolor unde repudiandae iure quo! Commodi aliquam doloremque maxime nostrum sint, natus, nihil, impedit quasi deleniti mollitia cum nisi.</p>
+        </div>
+        </section>
+        <section id="contacto">
+            <div class="container">
+            <h2>Contactanos</h2>
+            <div id="formularioContacto">
+                <form>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre" required> 
+                    <label for="email">Correo:</label>
+                    <input type="email" id="email" name="email" placeholder="Correo" required>  
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="¿En qué podemos ayudarte?" required></textarea> 
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            </section>
+            </div>
+    </main>
+    <footer>
+        <div class="footerContent">
+        <div class="logoFooter">
+            <img src="./img/logo.png" alt="Logo Footer">
+        </div>
+        <div class="menuFooterContainer">
+            <ul class="menuFooter">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./pages/catalogo.html">Catalogo</a></li>
+                <li><a href="./pages/testimonios.html">Testimonios</a></li>
+                <li><a href="./pages/quienes-somos.html">¿Quiénes Somos?</a></li>
+                <li><a href="./pages/contacto.html">Contacto</a></li>
+            </ul>
+            
+            <ul class="menuFooter">
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Soporte</a></li>
+            </ul>
+            
+            <ul class="menuFooter">
+                <li><a href="#">Política de Privacidad</a></li>
+                <li><a href="#">Términos y Condiciones</a></li>
+                <li><a href="#">Aviso Legal</a></li>
+            </ul>
+        </div>
+    </div>
+        <div>
+            <address>
+                123 Lorem, ipsum. CP 21345
+            </address>
+        </div>
+    </footer>
+</body>
+</html>
