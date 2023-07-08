@@ -138,7 +138,7 @@ header{ /*menu flotante*/
   scroll-snap-type: y mandatory;
 }
 
-#index section {
+#index section, footer {
   height: 100vh;
   width: 100vw;
   scroll-snap-align: start;
@@ -194,94 +194,7 @@ address {
   width: 80%;
 }
 
-
-
-
-.testimoniosInicio{
-   width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.cita{
-   font-style: italic;
-}
-#testimonios .testimoniosInicio p{
-   padding: 34px 20px;
-}
-
-.item img{
-  width: 50%;
-  border-radius: 100%;
-  margin-top: 50px;
-}
-
-/* Formulario Contacto */
-
-#formularioContacto{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-
-#formularioContacto form label, input, button{
-   display: block;
-   box-sizing: border-box;
-}
-
-#formularioContacto label {
-   visibility: hidden;
-}
-
-#formularioContacto textarea {
-  width: 100%;
-  height: 120px;
-  padding: 8px 5px;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
-  resize: none;
-}
-
-#formularioContacto input {
-  width: 100%;
-  height: 30px;
-  padding: 8px 5px;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
-  resize: none;
-}
-
-#formularioContacto form {
-   width: 28%;
-}
-
-#formularioContacto button{
-   width: 38%;
-    height: 11%;
-    margin: 32px 33%;
-
-}
-
 /* Quines somos */
-
-#quienesSomos {
-   margin: 0px 33%;
-}
-
-.floatImg{
-   float: left;
-   width: 350px;
-   margin: 15px;
-}
-
-.floatFrame{
-   float: right;
-   margin: 15px;
-}
 
 .paginaQuienes {
    margin: 1% 15%;
@@ -293,21 +206,21 @@ address {
 
 /* Link */
 a{
-   text-decoration: none;
-   color: #213861;
+   text-decoration: none!important;
+   color: #213861!important;
 }
 a:link {
-  color: #a5a5a5;
+  color: #a5a5a5!important;
 }
 
 a:visited {
-  color: #9ca3af;
+  color: #9ca3af!important;
 }
 
 a:hover {
-  color: #52514d;
+  color: #52514d!important;
 }
 
 a:active {
-  color: #00040c;
+  color: #00040c!important;
 }
