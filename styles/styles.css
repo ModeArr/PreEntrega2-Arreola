@@ -205,17 +205,6 @@ address {
   margin-bottom: 30px;
 }
 
-.item{
-   display: inline-block;
-    width: 18%;
-    text-align: center;
-    border: solid;
-    border-color: #dadada;
-    border-width: 2px;
-    height: 500px;
-    margin: 20px;
-    border-radius: 15px;
-}
 .cita{
    font-style: italic;
 }
