@@ -120,6 +120,12 @@ header{ /*menu flotante*/
 
 @media only screen and (min-width : 1300px) {
   .navbar-brand{
+    margin-right: 43rem!important;
+  }
+}
+
+@media only screen and (min-width : 1800px) {
+  .navbar-brand{
     margin-right: 55rem!important;
   }
 }
@@ -195,9 +201,20 @@ address {
 }
 
 /* Quines somos */
+.floatImg{
+  float: left;
+  width: 350px;
+  margin: 15px;
+}
+
+.floatFrame{
+  float: right;
+  margin: 15px;
+}
 
 .paginaQuienes {
    margin: 1% 15%;
+   padding-bottom: 3em;
 }
 
 .paginaQuienes p{
