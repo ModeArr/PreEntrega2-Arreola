@@ -12,24 +12,33 @@
 </head>
 <body>
     <header id="header">
-        <div class="center"> 
-            <a href="../index.html"><img src="../img/logo.png" alt="Logo"></img></a>
-        </div>
-        <div class="menuHamburgesa">
-            <input type="checkbox"/>
-            <span class="ham"></span>
-            <span class="ham"></span>
-            <span class="ham"></span>
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./catalogo.html">Catalogo</a></li>
-                    <li><a href="./testimonios.html">Testimonios</a></li>
-                    <li><a href="./quienes-somos.html">¿Quiénes Somos?</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
+        <nav class="navbar navbar-toggler shadow-5-strong d-flex border-bottom-0" data-bs-theme="dark">
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar">
+                <span class="ham"></span>
+                <span class="ham"></span>
+                <span class="ham"></span>
+              </button>
+            <a class="navbar-brand" href="../index.html">
+                <img src="../img/logo.png" alt="Logo" class="">
+            </a>
+
+
+          <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menú</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li><a class="nav-link" href="../pages/catalogo.html">Catalogo</a></li>
+                    <li><a class="nav-link active" href="../pages/testimonios.html">Testimonios</a></li>
+                    <li><a class="nav-link" href="../pages/quienes-somos.html">¿Quiénes Somos?</a></li>
+                    <li><a class="nav-link" href="../pages/contacto.html">Contacto</a></li>
                 </ul>
-            </nav>
-        </div>
+            </div>
+          </div>
+      </nav>
     </header>
     <main>
     <section id="page"> 
